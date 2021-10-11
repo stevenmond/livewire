@@ -30,7 +30,7 @@ abstract class Component
 
     protected $queryString = [];
     protected $computedPropertyCache = [];
-    protected $shouldSkipRender = false;
+    protected $shouldSkipRender = null;
     protected $preRenderedView;
     protected $forStack = [];
     
